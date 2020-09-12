@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (4 + 5) == 6",
+      "children" : [ {
+        "name" : "两位数相加",
+        "uid" : "e022c1e190fc7228",
+        "parentUid" : "de88fc3445a816e43fac0ea4b38f19cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599210125610,
+          "stop" : 1599210125610,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "5", "6" ]
+      } ],
+      "uid" : "de88fc3445a816e43fac0ea4b38f19cf"
+    }, {
+      "name" : "Failed: [XPASS(strict)] 异常数据",
+      "children" : [ {
+        "name" : "test_xfail[12-13]",
+        "uid" : "aabb0b7da238ec0b",
+        "parentUid" : "196b331b7330d308e3c6068eb6a82e6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599210125697,
+          "stop" : 1599210125697,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "12", "13" ]
+      } ],
+      "uid" : "196b331b7330d308e3c6068eb6a82e6b"
+    }, {
+      "name" : "AssertionError: assert 5 == 4",
+      "children" : [ {
+        "name" : "test_flaky",
+        "uid" : "ff0757d12b6dd059",
+        "parentUid" : "458d6e4b7f0f2def2ecfad0d4a458db5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599210140825,
+          "stop" : 1599210140826,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "458d6e4b7f0f2def2ecfad0d4a458db5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

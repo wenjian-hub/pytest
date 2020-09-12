@@ -1,0 +1,81 @@
+{
+  "uid" : "9fcd4b6b8eb53371",
+  "name" : "三位数相加：4+5+1",
+  "fullName" : "test_demo_two.TestDemoTwo#test_add",
+  "historyId" : "dbba689492e0784661d27e27a83da28c",
+  "time" : {
+    "start" : 1599210125613,
+    "stop" : 1599210125617,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fe58c9f9693d7b8",
+      "name" : "计算结果",
+      "source" : "4fe58c9f9693d7b8.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "hotel pytest 分享"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo_two"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemoTwo"
+  }, {
+    "name" : "host",
+    "value" : "wenjian"
+  }, {
+    "name" : "thread",
+    "value" : "20291-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo_two"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "c",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fcd4b6b8eb53371.json",
+  "parameterValues" : [ "1", "5", "4" ]
+}

@@ -1,0 +1,12 @@
+token:
+  method: post
+  url: "{host}/v1/agentwebserv/login/account"
+  headers:
+    Content-Type: application/x-www-form-urlencoded
+    Accept-Language: en_US
+  data:
+    user_channel: 4
+    username: flickket_hkd1@klook.com
+    password: f1418c6d478c31d2ae34f9c8eeb75b44
+    gateway: agent
+    need_cookie: True

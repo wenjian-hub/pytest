@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (4 + 5) == 6",
+      "children" : [ {
+        "name" : "两位数相加",
+        "uid" : "a0c8f288efef4f1a",
+        "parentUid" : "de88fc3445a816e43fac0ea4b38f19cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599871509649,
+          "stop" : 1599871509649,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "5", "6" ]
+      } ],
+      "uid" : "de88fc3445a816e43fac0ea4b38f19cf"
+    }, {
+      "name" : "AssertionError: assert 2 == 4",
+      "children" : [ {
+        "name" : "test_flaky",
+        "uid" : "df664464086e37e4",
+        "parentUid" : "111e9a3ae63fecfeab74584dcec8ee30",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599871524907,
+          "stop" : 1599871524907,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "111e9a3ae63fecfeab74584dcec8ee30"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,301 @@
+[ {
+  "uid" : "e37dfbae1b6d9cf8",
+  "name" : "三位数相加：4+6+1",
+  "time" : {
+    "start" : 1599871509733,
+    "stop" : 1599871509733,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3dea996bf0cccbfb",
+  "name" : "三位数相加：4+5+4",
+  "time" : {
+    "start" : 1599871509729,
+    "stop" : 1599871509730,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f7a799101647b77d",
+  "name" : "test_skip[1-2]",
+  "time" : {
+    "start" : 1599871509831,
+    "stop" : 1599871509831,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "df664464086e37e4",
+  "name" : "test_flaky",
+  "time" : {
+    "start" : 1599871524907,
+    "stop" : 1599871524907,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7cc80e8e3bb3c69",
+  "name" : "三位数相加：4+4+3",
+  "time" : {
+    "start" : 1599871509705,
+    "stop" : 1599871509705,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ebbeb6b490d3671e",
+  "name" : "三位数相加：10+4+2",
+  "time" : {
+    "start" : 1599871509763,
+    "stop" : 1599871509764,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a842bad4571a449a",
+  "name" : "test_xfail[12-13]",
+  "time" : {
+    "start" : 1599871509850,
+    "stop" : 1599871509850,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8deab9999cf0bbd0",
+  "name" : "三位数相加：10+4+3",
+  "time" : {
+    "start" : 1599871509768,
+    "stop" : 1599871509769,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "efa7cffd6a7028d7",
+  "name" : "三位数相加：4+5+2",
+  "time" : {
+    "start" : 1599871509721,
+    "stop" : 1599871509721,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8aca4af22ce06bba",
+  "name" : "三位数相加：4+5+1",
+  "time" : {
+    "start" : 1599871509717,
+    "stop" : 1599871509717,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "683343a01c9eada0",
+  "name" : "三位数相加：10+5+1",
+  "time" : {
+    "start" : 1599871509776,
+    "stop" : 1599871509776,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "aaeee09b8c57c970",
+  "name" : "三位数相加：4+4+4",
+  "time" : {
+    "start" : 1599871509710,
+    "stop" : 1599871509711,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c466de5b3108d4a9",
+  "name" : "三位数相加：10+4+4",
+  "time" : {
+    "start" : 1599871509772,
+    "stop" : 1599871509772,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c95b6350ad713cd8",
+  "name" : "三位数相加：10+4+1",
+  "time" : {
+    "start" : 1599871509758,
+    "stop" : 1599871509759,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "59381cdc98cbb0fb",
+  "name" : "三位数相加：4+6+3",
+  "time" : {
+    "start" : 1599871509744,
+    "stop" : 1599871509746,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c401348ed10db80e",
+  "name" : "三位数相加：10+6+1",
+  "time" : {
+    "start" : 1599871509801,
+    "stop" : 1599871509802,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "680e5b0434a8ccbb",
+  "name" : "两位数相加",
+  "time" : {
+    "start" : 1599871509645,
+    "stop" : 1599871509645,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9c2b60a15928539",
+  "name" : "三位数相加：10+5+4",
+  "time" : {
+    "start" : 1599871509796,
+    "stop" : 1599871509796,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bb1a3e34935c7e72",
+  "name" : "三位数相加：10+6+2",
+  "time" : {
+    "start" : 1599871509808,
+    "stop" : 1599871509809,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cc179d41354ad96b",
+  "name" : "三位数相加：10+5+2",
+  "time" : {
+    "start" : 1599871509784,
+    "stop" : 1599871509785,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "231a28e2deef6a95",
+  "name" : "三位数相加：10+5+3",
+  "time" : {
+    "start" : 1599871509791,
+    "stop" : 1599871509792,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a5640c28f4768e31",
+  "name" : "三位数相加：4+6+2",
+  "time" : {
+    "start" : 1599871509737,
+    "stop" : 1599871509737,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2f6a3ee4b29503c2",
+  "name" : "三位数相加：4+5+3",
+  "time" : {
+    "start" : 1599871509725,
+    "stop" : 1599871509726,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cb05a35ca85bd934",
+  "name" : "test_skipif",
+  "time" : {
+    "start" : 1599871509841,
+    "stop" : 1599871509841,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a0c8f288efef4f1a",
+  "name" : "两位数相加",
+  "time" : {
+    "start" : 1599871509649,
+    "stop" : 1599871509649,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b3c62a1513af23f",
+  "name" : "三位数相加：10+6+3",
+  "time" : {
+    "start" : 1599871509817,
+    "stop" : 1599871509818,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5687aa8206157217",
+  "name" : "三位数相加：4+4+2",
+  "time" : {
+    "start" : 1599871509702,
+    "stop" : 1599871509702,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "21eba370498c6694",
+  "name" : "三位数相加：10+6+4",
+  "time" : {
+    "start" : 1599871509825,
+    "stop" : 1599871509826,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b752b727dd6014dd",
+  "name" : "三位数相加：4+4+1",
+  "time" : {
+    "start" : 1599871509699,
+    "stop" : 1599871509699,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "222bbf235fe1c8ba",
+  "name" : "三位数相加：4+6+4",
+  "time" : {
+    "start" : 1599871509751,
+    "stop" : 1599871509751,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

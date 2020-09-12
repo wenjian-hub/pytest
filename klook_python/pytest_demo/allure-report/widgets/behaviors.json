@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "ff01aa69a3166b4164071606754e722c",
+    "name" : "hotel pytest 分享",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 25,
+      "unknown" : 0,
+      "total" : 29
+    }
+  } ]
+}
