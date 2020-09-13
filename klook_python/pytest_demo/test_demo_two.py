@@ -46,8 +46,8 @@ class TestDemoTwo:
         sum = a + b
 
    
-    @pytest.mark.flaky(reruns=5, reruns_delay=3)
-     def test_flaky(self):
-         number = random.randint(1, 5)
-         print(number)
-         assert number == 4
+    @pytest.mark.flaky(reruns=5, reruns_delay=1)
+    def test_flaky(self):
+        number = random.randint(1, 5)
+        print(number)
+        assert number == 4
