@@ -14,6 +14,11 @@ class conf_Data:
         value = cls.config.get(session, option)
         return value
 
+    @classmethod
+    def db_info(cls, session, option):
+        db_value = cls.config.get(session, option)
+        return db_value
+
 
 class conf_data_yaml:
     conf_path = Path.cwd().parent / "conf/conf_data.yaml"
@@ -23,5 +28,3 @@ class conf_data_yaml:
     def agent_host(cls,  expr):
         value = jsonpath(cls.data, expr)[0]
         return value
-
-

@@ -1,36 +1,27 @@
 import pymysql
-from sshtunnel import SSHTunnelForwarder
+from conf.read_conf import conf_Data
 
 
 class MySqlCon:
-
-    def __init__(self, dbname, sql_contxt):
+    def __init__(self, dbname, sql):
         self.dbname = dbname
-        self.sql_contxt = sql_contxt
+        self.sql = sql
 
-    def ssh_conn(self):
-        server = SSHTunnelForwarder(
-            ("xxxx", "xxxx"),
-            ssh_username="",
-            ssh_pkey="",
-            remote_bind_address="")
-        server.start()
-
-        dbcon = pymysql.connect(
-            host="127.0.0.1",
-            port=server.local_bind_port,
-            username="",
-            password="",
-            db=self.dename
-        )
-        cur = dbcon.cursor()
+    def mysql_con(self) -> iter:
         try:
-            cur.execute(self.sql_contxt)
+            database = pymysql.connect(
+                        host=conf_Data.db_info("db", "db_host"),
+                        user=conf_Data.db_info("db", "db_user"),
+                        password=conf_Data.db_info("db", "db_password"),
+                        port=int(conf_Data.db_info("db", "db_port")),
+                        db=self.dbname)
+            cur = database.cursor()
+            cur.execute(self.sql)
             data = cur.fetchall()
             cur.close()
-            dbcon.cursor()
-            server.close()
-            return data
+            database.close()
+            yield data
         except Exception as e:
-            print("db connect error...{}".format(e))
+            print("数据库连接异常: {}, 请检查".format(e))
+
 
